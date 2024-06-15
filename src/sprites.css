@@ -267,4 +267,5 @@
 
 body {
   background-image: url(./bg/Canvas.png);
+  height: 100vh;
 }
