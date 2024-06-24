@@ -1,5 +1,5 @@
 export const modFox = (state) => {
-  document.querySelector(".fox").className = `fox fox-${state}`;
+  document.querySelector(".fox").className = `fox-${state} fox`;
 };
 
 export const modScene = (state) => {
