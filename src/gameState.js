@@ -131,6 +131,9 @@ const gameState = {
   },
   changeWeather() {
     console.log("changeWeather");
+    this.scene = (this.scene + 1) % SCENES.length;
+    modScene(SCENES[this.scene]);
+    this.determineFoxState();
   },
   cleanUpPoop() {
     console.log("cleaningUpPoop");
