@@ -6,10 +6,10 @@
   "type": "module",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build",
+    "build": "parcel build --public-url /fox-game/",
     "dev": "parcel src/index.html",
     "test": "jest",
-    "predeploy": "parcel build",
+    "predeploy": "parcel build --public-url /fox-game/",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
